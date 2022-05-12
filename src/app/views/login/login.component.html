@@ -16,7 +16,7 @@
     </div>
 
     
-    <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+    <form formGroup="loginForm" (ngSubmit)="onSubmit()">
 
       <input type="email" id="email" class="fadeIn second" name="email" placeholder="E-mail" [(ngModel)]= "loginModel.email">
       <input type="Password" id="senha" class="fadeIn third" name="senha" placeholder="Senha" [(ngModel)]= "loginModel.senha" >
