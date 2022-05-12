@@ -1,0 +1,36 @@
+<app-root></app-root>
+ 
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+ 
+
+    
+    <div class="fadeIn first">
+      <h1> Games </h1>
+    </div>
+
+    
+    <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+
+      <input type="email" id="email" class="fadeIn second" name="email" placeholder="E-mail" [(ngModel)]= "loginModel.email">
+      <input type="Password" id="senha" class="fadeIn third" name="senha" placeholder="Senha" [(ngModel)]= "loginModel.senha" >
+      <input type="submit" class="fadeIn fourth" value="Entrar">
+
+    </form>
+
+    <p id="mensagem" *ngIf="mensagem!= '' ">{{mensagem}}</p>
+
+    
+    
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Esqueceu sua senha? </a>
+    </div>
+
+  </div>
+</div>

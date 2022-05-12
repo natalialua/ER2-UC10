@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "email": "natalia@email.com",
+      "password": "123",
+      "nome": "natalia",
+      "id": 1
+    },
+    {
+      "email": "camila@email.com",
+      "password": "$2a$10$QsgrPVtmGsYw5ixb3U4G0.U5gZY1nHgEg3CSotfBCQuEAvLtdXXOa",
+      "nome": "camila",
+      "id": 2
+    },
+    {
+      "email" : "fernando@email.com",
+      "password": "34",
+      "nome" : "fernando",
+      "id" : 3
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      " imagem": "",
+      "titulo": " ",
+      "descricao": " "
+    },
+    {
+      "id": 2,
+      " imagem": "",
+      "titulo": " ",
+      "descricao": " "
+    },
+    {
+      "id": 3,
+      " imagem": "",
+      "titulo": "",
+      "descricao": " "
+    },
+    {
+      "id": 4,
+      " imagem": "",
+      "titulo": " ",
+      "descricao": " "
+    },
+    {
+      "id": 5,
+      " imagem": "",
+      "titulo": " ",
+      "descricao": " "
+    },
+    {
+      "id": 6,
+      " imagem": "",
+      "titulo": " ",
+      "descricao": " "
+    },
+    {
+      " imagem": "",
+      "titulo": " ",
+      "descricao": " ",
+      "id": 7
+    },
+    {
+      " imagem": "",
+      "titulo": "",
+      "descricao": " ",
+      "id": 8
+    }
+  ]
+}
